@@ -1,0 +1,116 @@
+C:\Users\Alex\documents\visual studio 2015\Projects\Diploma\Diploma\bin\Debug\Diploma.exe.config
+C:\Users\Alex\documents\visual studio 2015\Projects\Diploma\Diploma\obj\Debug\Diploma.exe
+C:\Users\Alex\documents\visual studio 2015\Projects\Diploma\Diploma\obj\Debug\Diploma.pdb
+C:\Users\Alex\Documents\Visual Studio 2017\Projects\Diploma\Diploma\bin\Debug\Diploma.exe.config
+C:\Users\Alex\Documents\Visual Studio 2017\Projects\Diploma\Diploma\bin\Debug\Diploma.exe
+C:\Users\Alex\Documents\Visual Studio 2017\Projects\Diploma\Diploma\bin\Debug\Diploma.pdb
+C:\Users\Alex\Documents\Visual Studio 2017\Projects\Diploma\Diploma\bin\Debug\System.Windows.Controls.DataVisualization.Toolkit.dll
+C:\Users\Alex\Documents\Visual Studio 2017\Projects\Diploma\Diploma\bin\Debug\WPFToolkit.dll
+C:\Users\Alex\Documents\Visual Studio 2017\Projects\Diploma\Diploma\bin\Debug\System.Windows.Controls.DataVisualization.Toolkit.pdb
+C:\Users\Alex\Documents\Visual Studio 2017\Projects\Diploma\Diploma\bin\Debug\WPFToolkit.pdb
+C:\Users\Alex\Documents\Visual Studio 2017\Projects\Diploma\Diploma\obj\Debug\Client.csprojResolveAssemblyReference.cache
+C:\Users\Alex\Documents\Visual Studio 2017\Projects\Diploma\Diploma\obj\Debug\Windows\AuthenticateWindow.g.cs
+C:\Users\Alex\Documents\Visual Studio 2017\Projects\Diploma\Diploma\obj\Debug\Windows\MainWindow.g.cs
+C:\Users\Alex\Documents\Visual Studio 2017\Projects\Diploma\Diploma\obj\Debug\Windows\MonitoringWindow.g.cs
+C:\Users\Alex\Documents\Visual Studio 2017\Projects\Diploma\Diploma\obj\Debug\Windows\NewProfileWindow.g.cs
+C:\Users\Alex\Documents\Visual Studio 2017\Projects\Diploma\Diploma\obj\Debug\Windows\ReportsWindow.g.cs
+C:\Users\Alex\Documents\Visual Studio 2017\Projects\Diploma\Diploma\obj\Debug\Windows\ReportWindow.g.cs
+C:\Users\Alex\Documents\Visual Studio 2017\Projects\Diploma\Diploma\obj\Debug\Configs\App.g.cs
+C:\Users\Alex\Documents\Visual Studio 2017\Projects\Diploma\Diploma\obj\Debug\Diploma_MarkupCompile.cache
+C:\Users\Alex\Documents\Visual Studio 2017\Projects\Diploma\Diploma\obj\Debug\Diploma_MarkupCompile.lref
+C:\Users\Alex\Documents\Visual Studio 2017\Projects\Diploma\Diploma\obj\Debug\Windows\AuthenticateWindow.baml
+C:\Users\Alex\Documents\Visual Studio 2017\Projects\Diploma\Diploma\obj\Debug\Windows\MainWindow.baml
+C:\Users\Alex\Documents\Visual Studio 2017\Projects\Diploma\Diploma\obj\Debug\Windows\MonitoringWindow.baml
+C:\Users\Alex\Documents\Visual Studio 2017\Projects\Diploma\Diploma\obj\Debug\Windows\NewProfileWindow.baml
+C:\Users\Alex\Documents\Visual Studio 2017\Projects\Diploma\Diploma\obj\Debug\Windows\ReportsWindow.baml
+C:\Users\Alex\Documents\Visual Studio 2017\Projects\Diploma\Diploma\obj\Debug\Windows\ReportWindow.baml
+C:\Users\Alex\Documents\Visual Studio 2017\Projects\Diploma\Diploma\obj\Debug\Diploma.g.resources
+C:\Users\Alex\Documents\Visual Studio 2017\Projects\Diploma\Diploma\obj\Debug\Diploma.Properties.Resources.resources
+C:\Users\Alex\Documents\Visual Studio 2017\Projects\Diploma\Diploma\obj\Debug\Client.csproj.GenerateResource.Cache
+C:\Users\Alex\Documents\Visual Studio 2017\Projects\Diploma\Diploma\obj\Debug\Diploma.exe
+C:\Users\Alex\Documents\Visual Studio 2017\Projects\Diploma\Diploma\obj\Debug\Diploma.pdb
+C:\Users\Alex\Documents\Visual Studio 2017\Projects\Diploma\Diploma\bin\Debug\protobuf-net.dll
+C:\Users\Alex\Documents\Visual Studio 2017\Projects\Diploma\Diploma\obj\Debug\Client_MarkupCompile.cache
+C:\Users\Alex\Documents\Visual Studio 2017\Projects\Diploma\Diploma\obj\Debug\Client_MarkupCompile.lref
+C:\Users\Alex\Documents\Visual Studio 2017\Projects\Diploma\Client\bin\Debug\Client.exe.config
+C:\Users\Alex\Documents\Visual Studio 2017\Projects\Diploma\Client\bin\Debug\Client.exe
+C:\Users\Alex\Documents\Visual Studio 2017\Projects\Diploma\Client\bin\Debug\Client.pdb
+C:\Users\Alex\Documents\Visual Studio 2017\Projects\Diploma\Client\bin\Debug\protobuf-net.dll
+C:\Users\Alex\Documents\Visual Studio 2017\Projects\Diploma\Client\bin\Debug\System.Windows.Controls.DataVisualization.Toolkit.dll
+C:\Users\Alex\Documents\Visual Studio 2017\Projects\Diploma\Client\bin\Debug\WPFToolkit.dll
+C:\Users\Alex\Documents\Visual Studio 2017\Projects\Diploma\Client\bin\Debug\System.Windows.Controls.DataVisualization.Toolkit.pdb
+C:\Users\Alex\Documents\Visual Studio 2017\Projects\Diploma\Client\bin\Debug\WPFToolkit.pdb
+C:\Users\Alex\Documents\Visual Studio 2017\Projects\Diploma\Client\obj\Debug\Windows\AuthenticateWindow.g.cs
+C:\Users\Alex\Documents\Visual Studio 2017\Projects\Diploma\Client\obj\Debug\Windows\MainWindow.g.cs
+C:\Users\Alex\Documents\Visual Studio 2017\Projects\Diploma\Client\obj\Debug\Windows\MonitoringWindow.g.cs
+C:\Users\Alex\Documents\Visual Studio 2017\Projects\Diploma\Client\obj\Debug\Windows\NewProfileWindow.g.cs
+C:\Users\Alex\Documents\Visual Studio 2017\Projects\Diploma\Client\obj\Debug\Windows\ReportsWindow.g.cs
+C:\Users\Alex\Documents\Visual Studio 2017\Projects\Diploma\Client\obj\Debug\Windows\ReportWindow.g.cs
+C:\Users\Alex\Documents\Visual Studio 2017\Projects\Diploma\Client\obj\Debug\App.g.cs
+C:\Users\Alex\Documents\Visual Studio 2017\Projects\Diploma\Client\obj\Debug\Client_MarkupCompile.cache
+C:\Users\Alex\Documents\Visual Studio 2017\Projects\Diploma\Client\obj\Debug\Client_MarkupCompile.lref
+C:\Users\Alex\Documents\Visual Studio 2017\Projects\Diploma\Client\obj\Debug\Windows\AuthenticateWindow.baml
+C:\Users\Alex\Documents\Visual Studio 2017\Projects\Diploma\Client\obj\Debug\Windows\MainWindow.baml
+C:\Users\Alex\Documents\Visual Studio 2017\Projects\Diploma\Client\obj\Debug\Windows\MonitoringWindow.baml
+C:\Users\Alex\Documents\Visual Studio 2017\Projects\Diploma\Client\obj\Debug\Windows\NewProfileWindow.baml
+C:\Users\Alex\Documents\Visual Studio 2017\Projects\Diploma\Client\obj\Debug\Windows\ReportsWindow.baml
+C:\Users\Alex\Documents\Visual Studio 2017\Projects\Diploma\Client\obj\Debug\Windows\ReportWindow.baml
+C:\Users\Alex\Documents\Visual Studio 2017\Projects\Diploma\Client\obj\Debug\Client.g.resources
+C:\Users\Alex\Documents\Visual Studio 2017\Projects\Diploma\Client\obj\Debug\Client.Properties.Resources.resources
+C:\Users\Alex\Documents\Visual Studio 2017\Projects\Diploma\Client\obj\Debug\Client.csproj.GenerateResource.Cache
+C:\Users\Alex\Documents\Visual Studio 2017\Projects\Diploma\Client\obj\Debug\Client.exe
+C:\Users\Alex\Documents\Visual Studio 2017\Projects\Diploma\Client\obj\Debug\Client.pdb
+C:\Users\Alex\Documents\Visual Studio 2017\Projects\Diploma\Client\obj\Debug\App.baml
+C:\Users\Alex\Documents\Visual Studio 2017\Projects\Diploma\Client\bin\Debug\Microsoft.Threading.Tasks.dll
+C:\Users\Alex\Documents\Visual Studio 2017\Projects\Diploma\Client\bin\Debug\Microsoft.Threading.Tasks.Extensions.Desktop.dll
+C:\Users\Alex\Documents\Visual Studio 2017\Projects\Diploma\Client\bin\Debug\Microsoft.Threading.Tasks.Extensions.dll
+C:\Users\Alex\Documents\Visual Studio 2017\Projects\Diploma\Client\bin\Debug\Nito.AsyncEx.Concurrent.dll
+C:\Users\Alex\Documents\Visual Studio 2017\Projects\Diploma\Client\bin\Debug\Nito.AsyncEx.dll
+C:\Users\Alex\Documents\Visual Studio 2017\Projects\Diploma\Client\bin\Debug\Nito.AsyncEx.Enlightenment.dll
+C:\Users\Alex\Documents\Visual Studio 2017\Projects\Diploma\Client\bin\Debug\Microsoft.Threading.Tasks.xml
+C:\Users\Alex\Documents\Visual Studio 2017\Projects\Diploma\Client\bin\Debug\Microsoft.Threading.Tasks.Extensions.xml
+C:\Users\Alex\Documents\Visual Studio 2017\Projects\Diploma\Client\bin\Debug\Microsoft.Threading.Tasks.Extensions.Desktop.xml
+C:\Users\Alex\Documents\Visual Studio 2017\Projects\Diploma\Client\bin\Debug\Nito.AsyncEx.xml
+C:\Users\Alex\Documents\Visual Studio 2017\Projects\Diploma\Client\bin\Debug\Nito.AsyncEx.Concurrent.xml
+C:\Users\Alex\Documents\Visual Studio 2017\Projects\Diploma\Client\bin\Debug\Nito.AsyncEx.Enlightenment.xml
+C:\Users\Alex\Documents\Visual Studio 2017\Projects\Diploma\Client\obj\Debug\Client.csprojResolveAssemblyReference.cache
+D:\Diploma\Client\bin\Debug\Client.exe.config
+D:\Diploma\Client\obj\Debug\Client.exe
+D:\Diploma\Client\obj\Debug\Client.pdb
+D:\Diploma\Client\obj\Debug\Client.csprojResolveAssemblyReference.cache
+D:\Diploma\Client\obj\Debug\Windows\AuthenticateWindow.g.cs
+D:\Diploma\Client\obj\Debug\Windows\MainWindow.g.cs
+D:\Diploma\Client\obj\Debug\Windows\MonitoringWindow.g.cs
+D:\Diploma\Client\obj\Debug\Windows\NewProfileWindow.g.cs
+D:\Diploma\Client\obj\Debug\Windows\ReportsWindow.g.cs
+D:\Diploma\Client\obj\Debug\Windows\ReportWindow.g.cs
+D:\Diploma\Client\obj\Debug\App.g.cs
+D:\Diploma\Client\obj\Debug\Client_MarkupCompile.cache
+D:\Diploma\Client\obj\Debug\Client_MarkupCompile.lref
+D:\Diploma\Client\bin\Debug\Client.exe
+D:\Diploma\Client\bin\Debug\Client.pdb
+D:\Diploma\Client\bin\Debug\Microsoft.Threading.Tasks.dll
+D:\Diploma\Client\bin\Debug\Microsoft.Threading.Tasks.Extensions.Desktop.dll
+D:\Diploma\Client\bin\Debug\Microsoft.Threading.Tasks.Extensions.dll
+D:\Diploma\Client\bin\Debug\Nito.AsyncEx.Concurrent.dll
+D:\Diploma\Client\bin\Debug\Nito.AsyncEx.dll
+D:\Diploma\Client\bin\Debug\Nito.AsyncEx.Enlightenment.dll
+D:\Diploma\Client\bin\Debug\protobuf-net.dll
+D:\Diploma\Client\bin\Debug\Microsoft.Threading.Tasks.xml
+D:\Diploma\Client\bin\Debug\Microsoft.Threading.Tasks.Extensions.xml
+D:\Diploma\Client\bin\Debug\Microsoft.Threading.Tasks.Extensions.Desktop.xml
+D:\Diploma\Client\bin\Debug\Nito.AsyncEx.xml
+D:\Diploma\Client\bin\Debug\Nito.AsyncEx.Concurrent.xml
+D:\Diploma\Client\bin\Debug\Nito.AsyncEx.Enlightenment.xml
+D:\Diploma\Client\bin\Debug\System.Windows.Controls.DataVisualization.Toolkit.pdb
+D:\Diploma\Client\bin\Debug\WPFToolkit.pdb
+D:\Diploma\Client\obj\Debug\App.baml
+D:\Diploma\Client\obj\Debug\Windows\AuthenticateWindow.baml
+D:\Diploma\Client\obj\Debug\Windows\MainWindow.baml
+D:\Diploma\Client\obj\Debug\Windows\MonitoringWindow.baml
+D:\Diploma\Client\obj\Debug\Windows\NewProfileWindow.baml
+D:\Diploma\Client\obj\Debug\Windows\ReportsWindow.baml
+D:\Diploma\Client\obj\Debug\Windows\ReportWindow.baml
+D:\Diploma\Client\obj\Debug\Client.g.resources
+D:\Diploma\Client\obj\Debug\Client.Properties.Resources.resources
+D:\Diploma\Client\obj\Debug\Client.csproj.GenerateResource.Cache

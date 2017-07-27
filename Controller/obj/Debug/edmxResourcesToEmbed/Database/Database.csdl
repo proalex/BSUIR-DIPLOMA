@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema xmlns="http://schemas.microsoft.com/ado/2009/11/edm" xmlns:cg="http://schemas.microsoft.com/ado/2006/04/codegeneration" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" Namespace="Database" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" annotation:UseStrongSpatialTypes="false">
+  <EntityContainer Name="DatabaseContainer" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="UsersSet" EntityType="Database.Users" />
+    <EntitySet Name="ReportsSet" EntityType="Database.Reports" />
+    <AssociationSet Name="UsersReports" Association="Database.UsersReports">
+      <End EntitySet="UsersSet" Role="Users" />
+      <End EntitySet="ReportsSet" Role="Reports" />
+    </AssociationSet>
+    <EntitySet Name="PointsSet" EntityType="Database.Points" />
+    <EntitySet Name="UrlsSet" EntityType="Database.Urls" />
+    <EntitySet Name="ProfilesSet" EntityType="Database.Profiles" />
+    <AssociationSet Name="UsersProfiles" Association="Database.UsersProfiles">
+      <End Role="Users" EntitySet="UsersSet" />
+      <End Role="Profiles" EntitySet="ProfilesSet" />
+    </AssociationSet>
+    <AssociationSet Name="ReportsPoints" Association="Database.ReportsPoints">
+      <End Role="Reports" EntitySet="ReportsSet" />
+      <End Role="Points" EntitySet="PointsSet" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="Users">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" cg:SetterAccess="Private" />
+    <Property Name="Email" Type="String" Nullable="false" MaxLength="128" cg:SetterAccess="Private" Unicode="true" FixedLength="false" />
+    <Property Name="Password" Type="String" Nullable="false" MaxLength="128" cg:SetterAccess="Private" Unicode="true" FixedLength="false" />
+    <Property Name="AttemptsLeft" Type="Byte" Nullable="false" DefaultValue="3" />
+    <NavigationProperty Name="Reports" Relationship="Database.UsersReports" FromRole="Users" ToRole="Reports" />
+    <NavigationProperty Name="Profiles" Relationship="Database.UsersProfiles" FromRole="Users" ToRole="Profiles" />
+    <Property Name="Online" Type="Boolean" Nullable="false" DefaultValue="false" />
+  </EntityType>
+  <EntityType Name="Reports">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Time" Type="DateTime" Nullable="false" />
+    <Property Name="VirtualUsers" Type="Int32" Nullable="false" />
+    <Property Name="Timeout" Type="Int32" Nullable="false" />
+    <Property Name="RequestDuration" Type="Int32" Nullable="false" />
+    <Property Name="Duration" Type="Int32" Nullable="false" />
+    <Property Name="Strategy" Type="Byte" Nullable="false" />
+    <NavigationProperty Name="User" Relationship="Database.UsersReports" FromRole="Reports" ToRole="Users" />
+    <Property Name="UserId" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Points" Relationship="Database.ReportsPoints" FromRole="Reports" ToRole="Points" />
+    <Property Name="UrlGroup" Type="Int32" Nullable="false" />
+  </EntityType>
+  <Association Name="UsersReports">
+    <End Type="Database.Users" Multiplicity="1" Role="Users" />
+    <End Type="Database.Reports" Multiplicity="*" Role="Reports" />
+    <ReferentialConstraint>
+      <Principal Role="Users">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Reports">
+        <PropertyRef Name="UserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityType Name="Points">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="X" Type="Int32" Nullable="false" />
+    <Property Name="Y" Type="Int32" Nullable="false" />
+    <Property Name="ReportId" Type="Int32" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Urls">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Url" Type="String" Nullable="false" />
+    <Property Name="Group" Type="Int32" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Profiles">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <NavigationProperty Name="User" Relationship="Database.UsersProfiles" FromRole="Profiles" ToRole="Users" />
+    <Property Name="UserId" Type="Int32" Nullable="false" />
+    <Property Name="UrlGroup" Type="Int32" Nullable="false" />
+    <Property Name="VirtualUsers" Type="Int32" Nullable="false" />
+    <Property Name="Timeout" Type="Int32" Nullable="false" />
+    <Property Name="RequestDuration" Type="Int32" Nullable="false" />
+    <Property Name="Duration" Type="Int32" Nullable="false" />
+    <Property Name="Strategy" Type="Byte" Nullable="false" />
+    <Property Name="Name" Type="String" Nullable="false" />
+  </EntityType>
+  <Association Name="UsersProfiles">
+    <End Type="Database.Users" Role="Users" Multiplicity="1" />
+    <End Type="Database.Profiles" Role="Profiles" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Users">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Profiles">
+        <PropertyRef Name="UserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="ReportsPoints">
+    <End Type="Database.Reports" Role="Reports" Multiplicity="1" />
+    <End Type="Database.Points" Role="Points" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Reports">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Points">
+        <PropertyRef Name="ReportId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

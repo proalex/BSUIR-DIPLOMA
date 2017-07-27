@@ -1,0 +1,29 @@
+C:\Users\Alex\Documents\Visual Studio 2017\Projects\Diploma\Generator\bin\Debug\ControllerServer.exe.config
+C:\Users\Alex\Documents\Visual Studio 2017\Projects\Diploma\Generator\bin\Debug\ControllerServer.exe
+C:\Users\Alex\Documents\Visual Studio 2017\Projects\Diploma\Generator\bin\Debug\ControllerServer.pdb
+C:\Users\Alex\Documents\Visual Studio 2017\Projects\Diploma\Generator\bin\Debug\protobuf-net.dll
+C:\Users\Alex\Documents\Visual Studio 2017\Projects\Diploma\Generator\obj\Debug\ControllerServer.exe
+C:\Users\Alex\Documents\Visual Studio 2017\Projects\Diploma\Generator\obj\Debug\ControllerServer.pdb
+c:\Users\Alex\Documents\Visual Studio 2017\Projects\Diploma\Generator\obj\Debug\Controller.csprojResolveAssemblyReference.cache
+C:\Users\Alex\Documents\Visual Studio 2017\Projects\Diploma\Controller\obj\Debug\ControllerServer.exe
+C:\Users\Alex\Documents\Visual Studio 2017\Projects\Diploma\Controller\obj\Debug\ControllerServer.pdb
+C:\Users\Alex\Documents\Visual Studio 2017\Projects\Diploma\Controller\bin\Debug\ControllerServer.exe.config
+C:\Users\Alex\Documents\Visual Studio 2017\Projects\Diploma\Controller\bin\Debug\ControllerServer.exe
+C:\Users\Alex\Documents\Visual Studio 2017\Projects\Diploma\Controller\bin\Debug\ControllerServer.pdb
+C:\Users\Alex\Documents\Visual Studio 2017\Projects\Diploma\Controller\bin\Debug\protobuf-net.dll
+C:\Users\Alex\Documents\Visual Studio 2017\Projects\Diploma\Controller\bin\Debug\EntityFramework.dll
+C:\Users\Alex\Documents\Visual Studio 2017\Projects\Diploma\Controller\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Alex\Documents\Visual Studio 2017\Projects\Diploma\Controller\bin\Debug\EntityFramework.xml
+C:\Users\Alex\Documents\Visual Studio 2017\Projects\Diploma\Controller\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Alex\Documents\Visual Studio 2017\Projects\Diploma\Controller\obj\Debug\Controller.csprojResolveAssemblyReference.cache
+D:\Diploma\Controller\bin\Debug\ControllerServer.exe.config
+D:\Diploma\Controller\bin\Debug\ControllerServer.exe
+D:\Diploma\Controller\bin\Debug\ControllerServer.pdb
+D:\Diploma\Controller\bin\Debug\EntityFramework.dll
+D:\Diploma\Controller\bin\Debug\EntityFramework.SqlServer.dll
+D:\Diploma\Controller\bin\Debug\protobuf-net.dll
+D:\Diploma\Controller\bin\Debug\EntityFramework.xml
+D:\Diploma\Controller\bin\Debug\EntityFramework.SqlServer.xml
+D:\Diploma\Controller\obj\Debug\Controller.csprojResolveAssemblyReference.cache
+D:\Diploma\Controller\obj\Debug\ControllerServer.exe
+D:\Diploma\Controller\obj\Debug\ControllerServer.pdb

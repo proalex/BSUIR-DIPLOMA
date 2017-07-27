@@ -1,0 +1,14 @@
+C:\Users\Alex\Documents\Visual Studio 2017\Projects\Diploma\Generator\bin\Debug\Generator.exe.config
+C:\Users\Alex\Documents\Visual Studio 2017\Projects\Diploma\Generator\bin\Debug\Generator.exe
+C:\Users\Alex\Documents\Visual Studio 2017\Projects\Diploma\Generator\bin\Debug\Generator.pdb
+C:\Users\Alex\Documents\Visual Studio 2017\Projects\Diploma\Generator\bin\Debug\protobuf-net.dll
+C:\Users\Alex\Documents\Visual Studio 2017\Projects\Diploma\Generator\obj\Debug\Generator.csprojResolveAssemblyReference.cache
+C:\Users\Alex\Documents\Visual Studio 2017\Projects\Diploma\Generator\obj\Debug\Generator.exe
+C:\Users\Alex\Documents\Visual Studio 2017\Projects\Diploma\Generator\obj\Debug\Generator.pdb
+D:\Diploma\Generator\bin\Debug\Generator.exe.config
+D:\Diploma\Generator\bin\Debug\Generator.exe
+D:\Diploma\Generator\bin\Debug\Generator.pdb
+D:\Diploma\Generator\bin\Debug\protobuf-net.dll
+D:\Diploma\Generator\obj\Debug\Generator.csprojResolveAssemblyReference.cache
+D:\Diploma\Generator\obj\Debug\Generator.exe
+D:\Diploma\Generator\obj\Debug\Generator.pdb

@@ -1,0 +1,40 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Client"
+        xmlns:System="clr-namespace:System;assembly=mscorlib" x:Class="Client.MainWindow"
+        mc:Ignorable="d" Height="312.962" Width="769.023" ResizeMode="NoResize" Title="Мониторинг ресурсов" Closed="Window_Closed">
+    <Grid>
+        <Label x:Name="label" Content="Текущая загруженность инфраструктуры:" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="infrastructureLoadingRate" Content="" HorizontalAlignment="Left" Margin="233,10,0,0" VerticalAlignment="Top"/>
+        <ListView x:Name="generatorsControl" HorizontalAlignment="Left" Height="231" Margin="10,53,0,0" VerticalAlignment="Top" Width="200">
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn Header="Номер" Width="90" DisplayMemberBinding="{Binding Path=Number}"/>
+                    <GridViewColumn Header="Загруженность %" Width="100" DisplayMemberBinding="{Binding Path=Load}"/>
+                </GridView>
+            </ListView.View>
+        </ListView>
+        <Label x:Name="label1" Content="Список серверов генерации нагрузки" HorizontalAlignment="Left" Margin="10,30,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label2" Content="Список выполняемых задач" HorizontalAlignment="Left" Margin="215,30,0,0" VerticalAlignment="Top"/>
+        <ListView x:Name="tasksConrtol" HorizontalAlignment="Left" Height="231" Margin="215,53,0,0" VerticalAlignment="Top" Width="398">
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn Header="Номер" Width="50" DisplayMemberBinding="{Binding Path=Number}"/>
+                    <GridViewColumn Header="Использование ресурсов %" Width="150" DisplayMemberBinding="{Binding Path=Load}"/>
+                    <GridViewColumn Header="Пользователь" Width="190" DisplayMemberBinding="{Binding Path=User}"/>
+                </GridView>
+            </ListView.View>
+        </ListView>
+        <Button x:Name="changeUserButton" Content="Сменить пользователя" HorizontalAlignment="Left" Margin="623,16,0,0" VerticalAlignment="Top" Width="130" Click="changeUserButton_Click"/>
+        <ComboBox x:Name="profileControl" HorizontalAlignment="Left" Margin="623,81,0,0" VerticalAlignment="Top" Width="130"/>
+        <Label x:Name="label3" Content="Профиль тестирования" HorizontalAlignment="Left" Margin="618,53,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="chooseProfileButton" Content="Выбрать" HorizontalAlignment="Left" Margin="623,107,0,0" VerticalAlignment="Top" Width="130" Click="chooseProfileButton_Click"/>
+        <Button x:Name="createNewProfileButton" Content="Создать новый профиль" HorizontalAlignment="Left" Margin="623,132,0,0" VerticalAlignment="Top" Width="130" Height="23" Click="createNewProfileButton_Click"/>
+        <Button x:Name="reportListButton" Content="Список отчетов" HorizontalAlignment="Left" Margin="623,264,0,0" VerticalAlignment="Top" Width="130" Click="reportListButton_Click"/>
+        <Button x:Name="deleteProfileButton" Content="Удалить профиль" HorizontalAlignment="Left" Margin="623,160,0,0" VerticalAlignment="Top" Width="130" Click="deleteProfileButton_Click"/>
+
+    </Grid>
+</Window>
